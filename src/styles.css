@@ -52,6 +52,10 @@ a {
   color: rgb(185, 185, 185);
 }
 
+small {
+  padding: 40px 10px;
+}
+
 .form-outline {
   display: block;
   max-width: 100%;
@@ -89,6 +93,10 @@ div#temp.row {
   margin: 0 auto;
   width: 45px;
   margin-left: -6px;
+}
+
+.container-forecast {
+  margin: 20px 0;
 }
 
 #search-button {
