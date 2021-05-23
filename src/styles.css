@@ -1,0 +1,147 @@
+body {
+  border-radius: 1px;
+  display: block;
+  margin: 30px 80px;
+  padding: 35px 30px;
+  border: 1px solid black;
+  max-width: 500px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 8px;
+  margin-bottom: 10px;
+}
+
+div {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+}
+
+.form-outline {
+  display: block;
+  max-width: 100%;
+}
+
+.today-date {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 8px;
+  margin-bottom: 15px;
+  padding: -10px;
+}
+
+.changeTemperature {
+  font-size: 15px;
+  margin: 1px;
+  color: rgb(185, 185, 185);
+}
+
+a:hover {
+  color: black;
+}
+
+div#temp.row {
+  text-align: center;
+}
+
+.forecast-first,
+.forecast-second,
+.forecast-third,
+.forecast-fourth,
+.forecast-fifth,
+.forecast-sixth {
+  display: block;
+  margin: 0 auto;
+  width: 45px;
+  margin-left: -6px;
+}
+
+#search-button {
+  display: block;
+  margin: 0 -10px;
+  padding: 7px 13px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background: #215dcc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+#current-location-button {
+  display: block;
+  padding: 7px 13px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background: #5d91f1;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.selected {
+  color: black;
+}
+
+#low,
+#high {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+#low {
+  color: rgb(185, 185, 185);
+}
+
+#high {
+  color: rgb(124, 124, 124);
+}
+
+#search-button:hover {
+  color: #fff;
+  background: #5d91f1;
+}
+
+#current-location-button:hover {
+  color: #5d91f1;
+  background: #d2e1fc;
+}
